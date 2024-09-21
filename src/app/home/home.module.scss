@@ -33,12 +33,73 @@
                 font-size: 24px;
                 color: #000000;
             }
+
             .liThree {
-                margin-left: 400px; 
+                margin-left: 400px;
                 font-family: Inter Tight;
                 font-weight: 400;
                 font-size: 16px;
                 color: #0000008A;
+            }
+        }
+    }
+
+    .tarefas {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        height: 446px;
+        width: 450px;
+        background-color: #FFFFFF;
+        margin-top: 124px;
+        border: solid 1px;
+        border-color: #EAECF0;
+        border-radius: 16px;
+        gap: 24px;
+
+        .text {
+            margin-top: 32px;
+            font-family: Inter Tight;
+            font-weight: 400;
+            font-size: 16px;
+            color: #0000008A;
+        }
+
+        div {
+            width: 386px;
+            height: 216px;
+            gap: 24px;
+            display: flex;
+
+            .frame2 {
+                width: 386px;
+                height: 56px; 
+                border-radius: 8px;
+                border: dashed 1px;
+                border-color: #D7DDE9;
+                padding: 16px;
+                gap: 16px;
+
+                .group6 {
+                    display: flex;
+                    position: absolute;
+                    align-items: center;
+                    width: 354px;
+                    height: 24px;
+
+                    .trash {
+                        margin-left: 276px;
+                    }
+
+                    .txtGroup6 {
+                        font-family: Inter Tight;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;
+                        margin-left: -340px;
+                    }
+                }
             }
         }
     }

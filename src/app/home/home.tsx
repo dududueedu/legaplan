@@ -2,6 +2,8 @@ import styles from "./home.module.scss"
 import Image from 'next/image'
 import Logotype from '../assets/Logotype.png'
 import Logomark from '../assets/Logomark.png'
+import trash from '../assets/trash.png'
+import Checkbox from '../assets/Checkbox.png'
 
 export default function Home() {
     return (
@@ -30,6 +32,32 @@ export default function Home() {
                     <li className={styles.liThree}>Segunda, 01 de dezembro de 2025</li>
                 </ul>
             </header>
+            <section className={styles.tarefas}>
+                <span className={styles.text}>Suas tarefas de hoje</span>
+                <div>
+                    <div className={styles.frame2}>
+                        <div className={styles.group6}>
+
+                            <Image
+                                src={Checkbox}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <Image 
+                                className={styles.trash}
+                                src={trash}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <span className={styles.txtGroup6}>Lavar as mãos</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 }
