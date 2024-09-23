@@ -56,6 +56,50 @@ export default function Home() {
                             <span className={styles.txtGroup6}>Lavar as mãos</span>
                         </div>
                     </div>
+
+                    <div className={styles.frame3}>
+                        <div className={styles.group5}>
+
+                            <Image
+                                src={Checkbox}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <Image 
+                                className={styles.trash}
+                                src={trash}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <span className={styles.txtGroup5}>Fazer um bolo</span>
+                        </div>
+                    </div>
+
+                    <div className={styles.frame5}>
+                        <div className={styles.group4}>
+
+                            <Image
+                                src={Checkbox}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <Image 
+                                className={styles.trash}
+                                src={trash}
+                                width={24}
+                                height={24}
+                                alt="trash"
+                            />
+
+                            <span className={styles.txtGroup4}>Lavar a louça</span>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

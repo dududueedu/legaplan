@@ -71,6 +71,7 @@
             height: 216px;
             gap: 24px;
             display: flex;
+            flex-direction: column;
 
             .frame2 {
                 width: 386px;
@@ -83,7 +84,7 @@
 
                 .group6 {
                     display: flex;
-                    position: absolute;
+                    flex-direction: initial;
                     align-items: center;
                     width: 354px;
                     height: 24px;
@@ -93,6 +94,66 @@
                     }
 
                     .txtGroup6 {
+                        font-family: Inter Tight;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;
+                        margin-left: -340px;
+                    }
+                }
+            }
+
+            .frame3 {
+                width: 386px;
+                height: 56px; 
+                border-radius: 8px;
+                border: dashed 1px;
+                border-color: #D7DDE9;
+                padding: 16px;
+                gap: 16px;
+
+                .group5 {
+                    display: flex;
+                    flex-direction: initial;
+                    align-items: center;
+                    width: 354px;
+                    height: 24px;
+
+                    .trash {
+                        margin-left: 276px;
+                    }
+
+                    .txtGroup5 {
+                        font-family: Inter Tight;
+                        font-weight: 400;
+                        font-size: 16px;
+                        color: #000000;
+                        margin-left: -340px;
+                    }
+                }
+            }
+
+            .frame5 {
+                width: 386px;
+                height: 56px; 
+                border-radius: 8px;
+                border: dashed 1px;
+                border-color: #D7DDE9;
+                padding: 16px;
+                gap: 16px;
+
+                .group4 {
+                    display: flex;
+                    flex-direction: initial;
+                    align-items: center;
+                    width: 354px;
+                    height: 24px;
+
+                    .trash {
+                        margin-left: 276px;
+                    }
+
+                    .txtGroup4 {
                         font-family: Inter Tight;
                         font-weight: 400;
                         font-size: 16px;
